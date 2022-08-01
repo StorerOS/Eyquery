@@ -1,0 +1,97 @@
+$colorPrimary: #1E007C;
+$colorDanger: #FF4D4F;
+$colorSuccess: #52C41A;
+
+// text color
+$colorTextHeavy: #141414;
+$colorTextPrimary: #333333;
+$colorTextLight: #999999;
+
+// border color
+$borderColorPrimary: #77D0FF;
+$borderColorLight: #F0F0F0;
+
+$fontLineHeightPrimary: 24px;
+$fontLineHeightSecondary: 12px;
+
+$backgroundColorPrimary: #E0F3FF;
+$backgroundColorLight: #999999;
+$activeBackgroundColor: #F8FCFE;
+
+
+// font weight
+$fontWeightMedium: 400;
+$fontWeightPrimary: 500;
+$fontWeightHeavy: bold;
+$fontWeightTopHeavy: 800;
+
+// font size
+$fontSizeExtraSmall: 12px;
+$fontSizeLowMedium: 14px;
+$fontSizeMedium: 16px;
+$fontSizeLarge: 18px;
+$fontSizeCeilLarge: 20px;
+$fontSizeCeilVeryLarge: 22px;
+$fontSizeVeryLarge: 24px;
+
+// border radius
+$borderRadiusSpecialSmall: 2px;
+$borderRadiusSmall: 4px;
+$borderRadiusTopSmall: 5px;
+$borderRadiusBase: 6px;
+$borderRadiusMedium: 10px;
+$borderRadiusLarge: 12px;
+
+$normalFontFamilyType: SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$regularFontFamilyType: SourceHanSansCN-Regular, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$mediumFontFamilyType: SourceHanSansCN-Medium, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$boldFontFamilyType: SourceHanSansCN-Bold, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$HeavyFontFamilyType: SourceHanSansCN-Heavy, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+
+
+$layoutContentWidth: 1340px;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#0079fe;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+$headerHeight: 50px;
+$footerHeight: 50px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  colorPrimary: $colorPrimary;
+  colorDanger: $colorDanger;
+  colorSuccess: $colorSuccess;
+  colorTextHeavy: $colorTextHeavy;
+  colorTextPrimary: $colorTextPrimary;
+  colorTextLight: $colorTextLight;
+  fontWeightMedium: $fontWeightMedium;
+  fontWeightPrimary: $fontWeightPrimary;
+  fontWeightHeavy: $fontWeightHeavy;
+  fontSizeExtraSmall: $fontSizeExtraSmall;
+  fontSizeLowMedium: $fontSizeLowMedium;
+  fontSizeMedium: $fontSizeMedium;
+  fontSizeLarge: $fontSizeLarge;
+  fontSizeVeryLarge: $fontSizeVeryLarge;
+  borderRadiusSpecialSmall: $borderRadiusSpecialSmall;
+  borderRadiusSmall: $borderRadiusSmall;
+  borderRadiusBase: $borderRadiusBase;
+  borderRadiusMedium: $borderRadiusMedium;
+  borderRadiusLarge: $borderRadiusLarge;
+  layoutContentWidth: $layoutContentWidth;
+  regularFontFamilyType: $regularFontFamilyType;
+  mediumFontFamilyType: $mediumFontFamilyType;
+  boldFontFamilyType: $boldFontFamilyType;
+}
+
